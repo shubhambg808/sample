@@ -1,0 +1,19 @@
+*{
+   background-color:rgb(220, 223, 89);
+}
+
+#bbn{
+   background-color: rgba(209, 26, 148, 0.425);
+    }
+
+
+*{
+   text-align: center;
+   margin: 90;
+   margin-top: 10px;
+   padding: 47;
+   outline: 0;
+ }
+*li,p,ol,ul,dl,dd,dt{
+text-align: center;
+}
