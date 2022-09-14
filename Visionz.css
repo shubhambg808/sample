@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.div1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( 60deg,
+      rgba(206, 172, 172, 0.87),
+      /* rgba(226, 158, 80, 0.616),
+      rgba(61, 238, 149, 0.9),
+      rgba(238, 61, 170, 0.9),
+      rgba(44, 65, 182, 0.815),
+      rgba(224, 28, 14, 0.815),
+      rgba(236, 236, 14, 0.493), */
+      rgba(174, 102, 216, 0.712)
+    ),
+         url("/3605341.png.jpg");
+background-size: cover;
+}
+
+.nav1 {
+    background-color: none;
+height: 100px;
+
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.list1 { 
+    display:flex;
+    list-style-type:none;
+}
+
+.list-item {
+    margin: 90px 90px;
+    /* margin: 50px; */
+  /* margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px; */
+  /* margin: 20px 100px 0 0; */
+  color: black;
+  font-size: 22px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.button1 {
+    
+    /* border-color: black; */
+    background-color: rgb(85, 226, 57);
+    margin: 0 50px 0 0;
+    padding: 15px 25px ;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px dashed blueviolet;
+    border-radius: 5px 5px;
+
+}
+
+/* .div3 {
+    max-width: 10px; 
+     height:10px
+     ;
+
+} */
+ 
+.div2{
+    text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: red  5px;
+ 
+}
+
+.h1 {
+    font-family: "Dela Gothic One";
+    color: rgb(7, 3, 6);
+font-size: 80px;
+}
+
+.button2 {
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    border-color: black;
+    background-color: rgb(177, 84, 231);
+    margin: 0 50px 0 0;
+    padding: 15px 25px ;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px dashed blueviolet;
+    border-radius: 15px 0;
+  }
+  
+  .div3{
+    position: absolute;
+   left: 0;
+    bottom: 0;
+
+  }
